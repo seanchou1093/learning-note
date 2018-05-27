@@ -1,8 +1,27 @@
+# Python basic knowledge
 
+<<<<<<< HEAD
 
 # function
 
 一些小的運算任務你可以使用 lambda，而較複雜的邏輯你可以使用 def 來定義
+=======
+## 變數
+
+Python 中變數不需要宣告，有以下六種基本類型
+* 不可變：Number（數字）、String（字串）、Tuple（元组）、Sets（集合）；
+* 可變：List（列表）、Dictionary（字典）
+
+### Tuple
+
+與 list 相似，只是內容不能修改
+
+```py
+name = "Sean"
+id = 100
+counter = 100.5
+```
+>>>>>>> e746580f16cc15faf3301af5f4c590cae839484c
 
 ## def
 
@@ -13,6 +32,7 @@ def function_name(parameters):
     expressions
 ```
 
+<<<<<<< HEAD
 ## lambda
 
 ```py
@@ -21,6 +41,9 @@ print(function_name(10, 3))
 ```
 
 # global
+=======
+## global
+>>>>>>> e746580f16cc15faf3301af5f4c590cae839484c
 
 如果在 function 中宣告了 global，就可以使用並且修改 global 的值
 
@@ -38,4 +61,10 @@ fun()
 print('a now:', a)   # 20
 ```
 
-# scope & LEGB
+## scope & LEGB
+
+https://segmentfault.com/a/1190000000640834
+
+## reference
+* http://www.runoob.com/python3/python3-tutorial.html
+* https://openhome.cc/Gossip/CodeData/PythonTutorial/index.html
